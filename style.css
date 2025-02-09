@@ -120,6 +120,10 @@ body {
     transition: color 0.3s ease;
 }
 
+#audioPlayer {
+    width: 100%;
+}
+
 /* Contact */
 
 .contact {
@@ -162,7 +166,7 @@ body {
 
    .about {
         gap: 10px;
-        padding: 30px 20px;
+        padding: 10px 20px;
    }
 
    .about .aboutMe {
