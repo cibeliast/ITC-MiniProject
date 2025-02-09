@@ -37,7 +37,7 @@ fetch(`https://api.weatherapi.com/v1/current.json?key=${weatherAPIKey}&q=${city}
             contacts.forEach(contact => {
                 contact.style.color = '#3e5064';
             })
-        } else if (currentWeather.includes('cloud')|| currentWeather.includes('clear')) {
+        } else if (currentWeather.includes('sunny')|| currentWeather.includes('clear')) {
             body.style.backgroundImage = 'linear-gradient(to right, #fef6ee, #f1e1c6';
         }
     })
